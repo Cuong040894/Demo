@@ -177,5 +177,38 @@ background-color: #f1f4f9;
     font-weight: 900;
 }
 
-/* demo git/
-
+.tow-up__btn{
+    margin: 0 auto;
+    padding: 15px 1px;
+    max-width: 326px;
+    text-align: center;
+    background-color: black;
+    border: 3px solid red;
+    font-size: 14px;
+    transition: 0.3s;
+    position: relative;
+}
+.tow-up__btn a{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.tow-up__btn:hover a,
+.tow-up__btn:active a{
+    color:red;
+}
+.tow-up__btn:hover .tow-up__animation,
+.tow-up__btn:active{
+    width: 100%;
+}
+.tow-up__animation{
+    background: green;
+    display: inline-block;
+    width: 0px;
+    position: absolute;
+    background: red;
+    height: 100%;
+    right: 0;
+    top: 0;
+    transition: all 0.3s;
+}
